@@ -1,2 +1,2 @@
 # PVY-ukol
-Jednoduchý úkol do PVY. 
+Jednoduchý úkol do PVY: formulář v JQuery. 
