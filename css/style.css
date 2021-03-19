@@ -1,0 +1,32 @@
+p {
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: azure;
+}
+
+#vypocet {
+    background-color: green;
+    border-color: green;
+}
+
+#reset {
+    background-color: red;
+    border-color: red;
+}
+
+.red {
+    border-color: red;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
